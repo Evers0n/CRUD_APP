@@ -136,5 +136,22 @@ namespace CRUD_APP.Controllers
 
             return RedirectToAction("Index", "Products");
         }
+
+        public IActionResult Delete (int id)
+        {
+            var product = _appDbContext.Products.Find(id);
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            string imageFullPath = environment.WebRootPath + "/products/" + product.ImageFileNome;
+            System.IO.File.Delete(imageFullPath);
+
+            _appDbContext.Products.Remove(product);
+            _appDbContext.SaveChanges(true);
+
+            return RedirectToAction("Index", "Products");
+        }
     }
 }
