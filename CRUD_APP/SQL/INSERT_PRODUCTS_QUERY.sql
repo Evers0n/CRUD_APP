@@ -1,0 +1,23 @@
+﻿INSERT INTO Products (Nome, Marca, Categoria, Preco, Descricao, ImageFileNome, DataCriacao)
+VALUES
+  ('Samsung Galaxy S23', 'Samsung', 'Celular', 999.99, 'Smartphone Samsung Galaxy S23 com 128GB de armazenamento', 'galaxy_s23.jpg', GETDATE()),
+    ('iPhone 14', 'Apple', 'Celular', 1099.99, 'Smartphone iPhone 14 com 256GB de armazenamento', 'iphone_14.jpg', GETDATE()),
+    ('Xiaomi Mi 11', 'Xiaomi', 'Celular', 749.99, 'Smartphone Xiaomi Mi 11 com 128GB de armazenamento', 'mi_11.jpg', GETDATE()),
+    ('Dell XPS 13', 'Dell', 'Computador', 1399.99, 'Laptop Dell XPS 13 com Intel Core i7 e 16GB RAM', 'dell_xps_13.jpg', GETDATE()),
+    ('MacBook Pro', 'Apple', 'Computador', 2399.99, 'Laptop MacBook Pro com M2 e 512GB SSD', 'macbook_pro.jpg', GETDATE()),
+    ('HP Spectre x360', 'HP', 'Computador', 1299.99, 'Laptop HP Spectre x360 com Intel Core i7 e 16GB RAM', 'hp_spectre_x360.jpg', GETDATE()),
+    ('PlayStation 5', 'Sony', 'Videogame', 499.99, 'Console PlayStation 5 com 825GB SSD', 'ps5.jpg', GETDATE()),
+    ('Xbox Series X', 'Microsoft', 'Videogame', 499.99, 'Console Xbox Series X com 1TB SSD', 'xbox_series_x.jpg', GETDATE()),
+    ('Nintendo Switch', 'Nintendo', 'Videogame', 299.99, 'Console Nintendo Switch com 32GB de armazenamento', 'nintendo_switch.jpg', GETDATE()),
+    ('OnePlus 11', 'OnePlus', 'Celular', 799.99, 'Smartphone OnePlus 11 com 128GB de armazenamento', 'oneplus_11.jpg', GETDATE()),
+    ('Google Pixel 7', 'Google', 'Celular', 599.99, 'Smartphone Google Pixel 7 com 128GB de armazenamento', 'pixel_7.jpg', GETDATE()),
+    ('Lenovo ThinkPad X1', 'Lenovo', 'Computador', 1599.99, 'Laptop Lenovo ThinkPad X1 com Intel Core i7 e 16GB RAM', 'lenovo_thinkpad_x1.jpg', GETDATE()),
+    ('ASUS ROG Zephyrus', 'ASUS', 'Computador', 1799.99, 'Laptop ASUS ROG Zephyrus com Ryzen 9 e 32GB RAM', 'asus_rog_zephyrus.jpg', GETDATE()),
+    ('Microsoft Surface Laptop', 'Microsoft', 'Computador', 1299.99, 'Laptop Microsoft Surface com Intel Core i5 e 8GB RAM', 'surface_laptop.jpg', GETDATE()),
+    ('PlayStation 4', 'Sony', 'Videogame', 299.99, 'Console PlayStation 4 com 1TB HDD', 'ps4.jpg', GETDATE()),
+    ('Xbox One X', 'Microsoft', 'Videogame', 399.99, 'Console Xbox One X com 1TB HDD', 'xbox_one_x.jpg', GETDATE()),
+    ('Nintendo Wii U', 'Nintendo', 'Videogame', 249.99, 'Console Nintendo Wii U com 32GB de armazenamento', 'wii_u.jpg', GETDATE()),
+    ('Sony Xperia 1 IV', 'Sony', 'Celular', 1199.99, 'Smartphone Sony Xperia 1 IV com 256GB de armazenamento', 'xperia_1_iv.jpg', GETDATE()),
+    ('Motorola Edge 30', 'Motorola', 'Celular', 649.99, 'Smartphone Motorola Edge 30 com 128GB de armazenamento', 'edge_30.jpg', GETDATE()),
+    ('Acer Predator Helios', 'Acer', 'Computador', 1699.99, 'Laptop Acer Predator Helios com Intel Core i7 e 16GB RAM', 'acer_predator_helios.jpg', GETDATE()),
+    ('MSI GF65 Thin', 'MSI', 'Computador', 1399.99, 'Laptop MSI GF65 Thin com Intel Core i7 e 8GB RAM', 'msi_gf65_thin.jpg', GETDATE());
